@@ -1,0 +1,204 @@
+/*reference https://github.com/semmypurewal/LearningWebAppDev/tree/master/Chapter6 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background: #EB91F2;
+  font-family:'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+h2, h4, h6 {
+  font-family:'Times New Roman', Times, serif;
+}
+
+header {
+  padding: 25px 0 25px 0;
+  background: #F2F291;
+  overflow: auto;
+}
+
+h1 {
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 4em;
+  color: #3630DC;
+  float: left;
+  width: 570px;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  background: #BFF291;
+  border-radius: 0 5px 5px 5px;
+  padding: 40px;
+}
+
+.tabs a span {
+  border-radius: 5px 5px 0 0;
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  background: #ddd;
+  padding: 5px;
+}
+
+.tabs a .active {
+  background: white;
+}
+
+main .content {
+  padding: 30px 10px 30px 10px;
+  border-radius: 0 5px 5px 5px;
+  background: #6EE0E5;
+}
+
+h3 {
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 5px;
+  color: #999;;
+  background: #ddd;
+  padding: 5px;
+  margin: 20px 0 10px 0;
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
+main .content li {
+  border-radius: 5px;
+  padding: 3px;
+  background: #eff;
+  margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+  color: black;
+  margin: 30px 0 0 0;
+}
+
+main .content p:first-child {
+  margin-top: 10px;
+}
+
+main .content input {
+  font-size: 1.5em;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;    
+}
+
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  color: #B500FF;
+}
+
+footer .contact p:nth-child(2) {
+  color: red;
+  font-style: italic;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+footer ul {
+  width: 230px;
+}
+
+li {
+  list-style: none;
+}
+
+footer .sitemap .left {
+  float: left;
+}
+
+footer .sitemap .right {
+  float: right;
+}

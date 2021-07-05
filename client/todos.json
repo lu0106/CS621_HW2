@@ -1,0 +1,26 @@
+[
+    { 
+        "description" : "CS621",
+        "tags"  : [ "Monday", "Tuseday" ]
+    },
+    { 
+        "description" : "Lab",
+        "tags"  : [ "Wednesday", "Thursday" ]
+    },
+    {
+        "description" : "Party",
+        "tags"  : [ "Friday", "Saturday" ]
+    },
+    { 
+        "description" : "Relax",
+        "tags"  : [ "Sunday" ]
+    },
+    { 
+        "description" : "Homeork",
+        "tags"  : [ "Sunday", "Saturday" ]
+    },
+    { 
+        "description" : "Shopping",
+        "tags"  : [ "Wednesday", "Friday" ]
+    }
+]
